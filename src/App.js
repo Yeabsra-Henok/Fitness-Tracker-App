@@ -54,7 +54,7 @@ function App() {
 
   return (
     <main>
-      <h1>Workout timer</h1>
+      <h1>Gym Guard</h1>
       <time>For your workout on {time}</time>
       <ToggleSounds allowSound={allowSound} setAllowSound={setAllowSound} />
       <Calculator workouts={workouts} allowSound={allowSound} />
